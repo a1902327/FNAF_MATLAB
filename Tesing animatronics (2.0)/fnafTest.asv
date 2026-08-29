@@ -1,0 +1,7 @@
+cycle = 1;
+switch cycle
+    case 1
+        t1 = timer ('TimerFcn','freddyMove = movementchoice; disp(freddyMove)','StartDelay',3);
+        start(t1);
+        t2 = timer ('TimerFcn',bonnieMove = movementchoice; foxyMove = movementchoice; chicaMove = movementchoice',1);
+        start(t2);
